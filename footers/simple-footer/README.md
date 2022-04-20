@@ -1,0 +1,1 @@
+Simple footer using CSS and HTML. It contains a `Back to Top`, a `Terms of Use` and `Privacy` link.
