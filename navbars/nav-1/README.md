@@ -1,0 +1,2 @@
+This is a nav (with HTML & CSS). It contains `Home`, `About`, `Sign In` and `Sign Up` link.
+![This is an image](https://raw.githubusercontent.com/arminsarkozi/common-components/main/navbars/nav-1/screenshot.png)

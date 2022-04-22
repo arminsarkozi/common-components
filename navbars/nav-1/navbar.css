@@ -1,0 +1,100 @@
+/* ==== GENERAL STYLES ===== */
+
+html,
+body {
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==== NAVIGATION STYLES ==== */
+
+nav {
+    background-color: rgba(0, 0, 0, .9);
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+main {
+    margin-top: .6rem;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 96%;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    margin: 10px;
+}
+
+a:hover {
+    color: #bebebe;
+}
+
+.btn {
+    border: 1px solid #8d8d8d;
+    border-radius: 9999px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Media query of nav */
+@media (min-width: 768px) {
+
+    nav {
+        background-color: rgba(0, 0, 0, .9);
+        position: fixed;
+    }
+
+    main {
+        margin-top: 5rem;
+        padding: 0.5rem 6rem 0.5rem 6rem;
+    }
+
+    nav a {
+        float: right;
+        display: inline;
+    }
+
+    .home {
+        float: left;
+    }
+
+    .btn {
+        padding-left: .7rem;
+        padding-right: .7rem;
+    }
+
+}
+
+p {
+    margin-bottom: 1.29rem;
+    padding: 0.5rem;
+}

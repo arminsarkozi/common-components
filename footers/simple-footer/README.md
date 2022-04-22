@@ -1,1 +1,2 @@
 Simple footer using CSS and HTML. It contains a `Back to Top`, a `Terms of Use` and `Privacy` link.
+![screenshot](https://raw.githubusercontent.com/arminsarkozi/common-components/main/footers/simple-footer/screenshot.png)
